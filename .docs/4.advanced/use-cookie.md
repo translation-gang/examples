@@ -1,7 +1,7 @@
 ---
 toc: false
 title: 'useCookie'
-description: 'This example shows how to use the useCookie API to persist small amounts of data that both client and server can use.'
+description: 'В этом примере показано, как использовать useCookie API для сохранения небольших объемов данных, которые могут использовать как клиент, так и сервер.'
 ---
 
 :read-more{to="/docs/api/composables/use-cookie"}
