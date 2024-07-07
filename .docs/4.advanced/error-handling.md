@@ -1,7 +1,7 @@
 ---
 toc: false
-title: 'Error Handling'
-description: 'This example shows how to handle errors in different contexts: pages, plugins, components and middleware.'
+title: 'Обработка ошибок'
+description: 'В этом примере показано, как обрабатывать ошибки в различных контекстах: страниц, плагинов, компонентов и middleware.'
 ---
 
 :read-more{to="/docs/getting-started/error-handling"}

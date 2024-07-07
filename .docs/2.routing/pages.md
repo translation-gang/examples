@@ -1,7 +1,7 @@
 ---
 toc: false
-title: 'Pages'
-description: 'This example shows how to use the pages/ directory to create application routes.'
+title: 'Страницы'
+description: 'В этом примере показано, как использовать директорию pages/ для создания роутов приложения.'
 ---
 
 :read-more{to="/docs/guide/directory-structure/pages"}

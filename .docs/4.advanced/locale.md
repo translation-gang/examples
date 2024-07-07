@@ -1,11 +1,11 @@
 ---
 toc: false
-title: 'Locale'
-description: "This example shows how to define a locale composable to handle the application's locale, both server and client side."
+title: 'Локаль'
+description: "В этом примере показано, как определить композабл локали для обработки локали приложения, как на сервере, так и на клиенте."
 ---
 
 ::callout{icon="i-ph-info-duotone"}
-You can right-click to "View Page Source" and see that Nuxt renders the correct date in SSR based on the visitor's locale.
+Вы можете щелкнуть правой кнопкой мыши, выбрать «Просмотреть исходный код страницы», и увидеть, что Nuxt отображает правильную дату в SSR на основе локали посетителя.
 ::
 
 :sandbox{repo="nuxt/examples" branch="main" dir="examples/advanced/locale" file="app.vue"}
