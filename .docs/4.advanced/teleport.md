@@ -1,12 +1,12 @@
 ---
 toc: false
-title: Teleport
-description: 'This example shows how to use the <Teleport> with client-side and server-side rendering.'
+title: Телепорт
+description: 'В этом примере показано, как использовать <Teleport> с рендерингом на клиенте и на сервере.'
 ---
 
-Vue 3 provides the [`<Teleport>` component](https://vuejs.org/guide/built-ins/teleport.html) which allows content to be rendered elsewhere in the DOM, outside of the Vue application.
+Vue 3 предоставляет компонент [`<Teleport>`](https://vuejs.org/guide/built-ins/teleport.html), который позволяет отображать контент в другом месте DOM, за пределами приложения Vue.
 
-This example shows how to use the `<Teleport>` with client-side and server-side rendering.
+В этом примере показано, как использовать `<Teleport>` для рендеринга на клиенте и на сервере.
 
 :read-more{to="/docs/api/components/teleports"}
 
