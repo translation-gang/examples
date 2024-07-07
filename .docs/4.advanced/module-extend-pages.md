@@ -1,7 +1,7 @@
 ---
 toc: false
-title: 'Module Extend Pages'
-description: 'This example defines a new `test` page using `extendPages` within a module.'
+title: 'Модуль расширения страниц'
+description: 'В этом примере определяется новая страница `test` с использованием `extendPages` в модуле.'
 ---
 
 :read-more{to="/docs/guide/going-further/modules"}
