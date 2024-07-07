@@ -1,7 +1,7 @@
 ---
 toc: false
 title: 'Middleware'
-description: 'This example shows how to add route middleware with the middleware/ directory or with a plugin, and how to use them globally or per page.'
+description: 'В этом примере показано, как добавить middleware маршрута с помощью директории middleware/ или плагина, а также как использовать их глобально или на каждой странице.'
 ---
 
 :read-more{to="/docs/guide/directory-structure/middleware"}
