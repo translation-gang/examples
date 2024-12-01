@@ -1,12 +1,13 @@
 export default defineComponent({
   props: {
-    message: String
+    message: String,
   },
-  render: (props) => {
+  // @ts-expect-error investigate why this is not typed
+  render(props) {
     return (
-    <div>
-      { props.message }
-    </div>
+      <div>
+        { props.message }
+      </div>
     )
-  }
+  },
 })
