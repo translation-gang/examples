@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const user = useCookie<{ name: string }>('user')
+const user = useCookie<{ name: string } | null>('user')
 const logins = useCookie<number>('logins')
 
 const name = ref('')
@@ -36,7 +36,7 @@ const logout = () => {
       </div>
       <div class="mt-3">
         <UButton
-          color="orange"
+          color="warning"
           icon="i-heroicons-arrow-left"
           @click="logout"
         >

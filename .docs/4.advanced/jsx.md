@@ -1,6 +1,6 @@
 ---
 toc: false
-title: 'JSX / TSX'
+title: 'Синтаксис JSX / TSX'
 description: 'В этом примере показано, как использовать синтаксис JSX с TypeScript на страницах и в компонентах Nuxt.'
 ---
 

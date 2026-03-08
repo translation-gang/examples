@@ -1,18 +1,19 @@
 <template>
   <div>
     <div
-      class="max-w-sm rounded overflow-hidden shadow-lg mb-4 dark:bg-gray-900"
+      class="max-w-sm rounded overflow-hidden shadow-lg mb-4 dark:bg-neutral-900"
     >
+      <!-- Photo by Samuel Ferrara on https://unsplash.com/photos/aerial-photo-of-foggy-mountains-1527pjeb6jg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash -->
       <img
         class="w-full"
-        src="https://tailwindcss.com/img/card-top.jpg"
+        src="/mountains.jpg"
         alt="Sunset in the mountains"
       >
       <div class="px-6 py-4 pb-2">
         <div class="font-bold text-xl mb-2 dark:text-white">
           The Coldest Sunset
         </div>
-        <p class="text-gray-700 dark:text-gray-300 text-base">
+        <p class="text-neutral-700 dark:text-neutral-300 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
           quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
           nihil.

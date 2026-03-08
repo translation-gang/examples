@@ -13,18 +13,20 @@ test.describe('British Locale', () => {
   })
 
   test('Date is in british format', async ({ page }) => {
-    await expect(page.getByText('Wednesday 26 October 2016')).toBeVisible()
+    await expect(page.getByText(/Wednesday,? 26 October 2016/)).toBeVisible()
   })
 
   test('British locale has been selected', async ({ page }) => {
-    await expect(page.getByRole('combobox')).toHaveValue('en-GB')
+    await expect(page.getByRole('combobox')).toHaveText('en-GB')
   })
 
   test('Changing locales works', async ({ page }) => {
-    await page.getByRole('combobox').selectOption('ko-KR')
+    await page.getByRole('combobox').click()
+    await page.getByRole('option', { name: 'ko-KR' }).click()
     await expect(page.getByText('2016년 10월 26일 수요일')).toBeVisible()
 
-    await page.getByRole('combobox').selectOption('fa-IR')
+    await page.getByRole('combobox').click()
+    await page.getByRole('option', { name: 'fa-IR' }).click()
     await expect(page.getByText('۱۳۹۵ آبان ۵, چهارشنبه')).toBeVisible()
   })
 })
@@ -39,6 +41,6 @@ test.describe('US Locale', () => {
   })
 
   test('US locale has been selected', async ({ page }) => {
-    await expect(page.getByRole('combobox')).toHaveValue('en-US')
+    await expect(page.getByRole('combobox')).toHaveText('en-US')
   })
 })
